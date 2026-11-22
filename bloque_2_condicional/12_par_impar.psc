@@ -1,0 +1,15 @@
+Algoritmo ParImpar
+    // Ejercicio: Par o Impar
+
+    // Variables y datos del problema
+    Definir N Como Entero
+    // Entrada de datos y validaciones
+    Escribir "Ingrese un numero entero:"
+    Leer N
+    // Proceso y cálculos
+    Si N MOD 2 = 0 Entonces
+        Escribir "El numero es PAR"
+    SiNo
+        Escribir "El numero es IMPAR"
+    FinSi
+FinAlgoritmo

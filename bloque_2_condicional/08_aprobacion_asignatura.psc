@@ -1,0 +1,20 @@
+Algoritmo AprobacionAsignatura
+    // Ejercicio: Aprobación de asignatura
+
+    // Variables y datos del problema
+    Definir P Como Real
+    // Entrada de datos y validaciones
+    Escribir "Ingrese el promedio final (0 a 10):"
+    Leer P
+    // Proceso y cálculos
+    Mientras P < 0 o P > 10 Hacer
+        Escribir "El promedio debe estar entre 0 y 10"
+        Escribir "Ingrese el promedio final (0 a 10):"
+        Leer P
+    FinMientras
+    Si P >= 7 Entonces
+        Escribir "APRUEBA"
+    SiNo
+        Escribir "NO APRUEBA"
+    FinSi
+FinAlgoritmo
