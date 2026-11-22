@@ -1,0 +1,26 @@
+Algoritmo MenuOperaciones
+    // Ejemplo: Menu de operaciones con control multiple
+    // Este menu solo identifica la operacion elegida, como solicita el ejemplo
+
+    Definir O Como Entero
+
+    Escribir "1. Sumar"
+    Escribir "2. Restar"
+    Escribir "3. Multiplicar"
+    Escribir "4. Salir"
+    Escribir "Elija una opcion:"
+    Leer O
+
+    Segun O Hacer
+        1:
+            Escribir "Operacion: Suma"
+        2:
+            Escribir "Operacion: Resta"
+        3:
+            Escribir "Operacion: Multiplicacion"
+        4:
+            Escribir "Saliendo del programa"
+        De Otro Modo:
+            Escribir "Opcion no valida"
+    FinSegun
+FinAlgoritmo
